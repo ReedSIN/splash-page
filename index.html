@@ -19,68 +19,53 @@
     <script src="js/jquery-2.2.0.min.js"></script>
 </head>
 <body>
-<div class="main">
-		<header class="big-as-fuck pacifico xtra-pad-top"> 
-			<div id="sin">s i n</div>
-		</header>
-		<div class="row">
-			<div class="center-me center sin-muted"> 
-				the student information network
-			</div>
-		</div>
-<!--		<div class="row">
-		  <div class="center-me center">
-		  <h1><a href="http://sin.reed.edu/webapps/fundingpoll/vote">Vote in Funding Poll!</a></h1>
-		  </div>
-		</div>-->
-		<div class="row">
-			<div class="center-me center">
-			  </a>
-				<a class="btn btn-lg btn-default"
-					role="button"
-					href="http://sin.reed.edu/webapps2/home/">
-					Enter
-				</a>
-			</div>
-			<div class="center-me center">
-				<div class="info-links">
-					|
-					<a href="/senate/">
-						<div>
-							senate wiki
-						</div>
-					</a>
-					|						
-					<a href="/senate/SoundKollektivInstructions">
-						<div>
-							sound kollektiv
-						</div>
-					</a>
-					|					
-					<a href="http://reed.switchboardhq.com/">
-						<div>
-							switchboard
-						</div>
-					</a>
-					|
-					<a href="http://sin.reed.edu/questarchives/">
-					  <div>
-					    quest archives
-					  </div>
-					</a>
-					|
-				</div>
-			</div>
-		</div>
-</div> <!-- /.main -->
-	<footer>
-		<div class="footer-item">
-			<p>
-				<b>Troubled?</b> Feel free to contact the webmasters: 
-				<a href="mailto:sin@lists.reed.edu?subject=Sinquiry">sin@lists.reed.edu</a>
-			</p>			
-		</div>
-	</footer>
+
+    <div class="container">
+    <div class="row">
+        <header class="col-md-8">
+	    <div class="big-as-fuck pacifico xtra-pad-top"> 
+	        <div id="sin">s i n</div>
+	    </div>
+            <div class="center-me center sin-muted"> 
+		the student information network
+	    </div>
+        </header>
+        <nav class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h2><a href="senate2/">Senate Website</a></h2>
+                    <p><a href="senate2/meet-senate">Meet Senate</a></p>
+                    <p><a href="senate2/community-documents">Community Documents</a></p>
+                    <p><a href="senate2/sos">Student Opportunity Subsidy</a></p>
+                    <p><a href="senate2/blog">Senate Blog</a></p>
+
+                    <hr>
+                    
+                    <h2><a href="webapps2/">SIN Webapps</a></h2>
+                    <p><a href="webapps2/organizations">Manage SB Organizations</a></p>
+                    <p><a href="webapps2/appointments">Apply for appointed SB Gov Positions</a></p>
+                    <p><a href="webapps2/finance">Submit budgets to Finance Committee</a></p>
+                    <p><a href="webapps2/fundingpoll">Vote in Funding Poll</a></p>
+                    <p><a href="webapps2/elections">Vote in SB elections</a></p>
+
+                    <hr>
+
+                    <h2>Other</h2>
+                    <p><a href="http://reed.switchboardhq.com/" target="_blank">Reed Switchboard</a></p>
+                    <p><a href="reedquest.org" target="_blank"><i>The Quest</i> Website</a></p>
+                    <p><a href="questarchives/">Quest PDF Archives</a></p>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <footer>
+	<p>
+	    Troubled? Feel free to contact the webmasters: 
+	    <a href="mailto:sin@lists.reed.edu?subject=Sinquiry">sin@lists.reed.edu</a>
+	</p>			
+    </footer>
+</div>
 </body>
 <script type="text/javascript" src="jquery.fittext.js"></script>
 <script>
@@ -100,11 +85,6 @@
     *                            pretty self explanatory
     *                            the keys take pixel values
     *****************************/
-    $("#sin").fitText(.7, {minFontSize: '40px', maxFontSize: '360px'});
-
-    function toggle_sidebar() {
-    	$(".side-bar").toggleClass("hide-bar")
-    	$(".big-wrap").toggleClass("hide-bar")
-    }
+    $("#sin").fitText(0.4, {minFontSize: '40px', maxFontSize: '600px'});
 </script>
 </html>
