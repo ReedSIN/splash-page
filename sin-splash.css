@@ -1,18 +1,18 @@
 @font-face {
 	font-family: Gaspar-Bold;
-	src: url(/css/webapps/bb-redux/fonts/gaspar/Gaspar_Bold.otf);
+	src: url(fonts/gaspar/Gaspar_Bold.otf);
 }
 @font-face {
 	font-family: Gaspar;
-	src: url(/css/webapps/bb-redux/fonts/gaspar/Gaspar_Regular.otf);
+	src: url(fonts/gaspar/Gaspar_Regular.otf);
 }
 @font-face {
 	font-family: Miama;
-	src: url(/css/webapps/bb-redux/fonts/Miama/Miama.otf);
+	src: url(fonts/Miama/Miama.otf);
 }
 @font-face {
 	font-family: Pacifico;
-	src: url(/css/webapps/bb-redux/fonts/pacifico/Pacifico.ttf);
+	src: url(fonts/pacifico/Pacifico.ttf);
 }
 .pacifico {
 	font-family: Pacifico;
